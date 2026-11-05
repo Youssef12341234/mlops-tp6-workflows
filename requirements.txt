@@ -1,4 +1,4 @@
-﻿mlflow
+mlflow
 scikit-learn
 pandas
 numpy
@@ -6,3 +6,4 @@ joblib
 pyyaml
 matplotlib
 dvc
+prefect

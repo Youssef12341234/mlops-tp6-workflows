@@ -1,5 +1,6 @@
 ﻿# Environnement virtuel et caches Python
 .venv/
+.prefect/
 __pycache__/
 *.pyc
 
