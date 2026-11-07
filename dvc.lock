@@ -43,8 +43,8 @@ stages:
     outs:
     - path: models/model.pkl
       hash: md5
-      md5: 9fde95b5d5a2c2a4215f5a8b983b787f
-      size: 11316905
+      md5: a83c7c31adb54b533116afd4a50d3fb5
+      size: 11316921
   evaluer:
     cmd: python src/evaluer.py
     deps:
@@ -54,8 +54,8 @@ stages:
       size: 30191
     - path: models/model.pkl
       hash: md5
-      md5: 9fde95b5d5a2c2a4215f5a8b983b787f
-      size: 11316905
+      md5: a83c7c31adb54b533116afd4a50d3fb5
+      size: 11316921
     - path: src/evaluer.py
       hash: md5
       md5: 20d086d48f07dcbab78f940271d54e76
@@ -63,8 +63,8 @@ stages:
     outs:
     - path: reports/confusion.png
       hash: md5
-      md5: 132114f08fe8f1d15471408fffba25bf
-      size: 16874
+      md5: 74252ece87260a4ec93da04d20b2380e
+      size: 15463
     - path: reports/metrics.json
       hash: md5
       md5: 05d8bb55c024ba339b2d04c8aed35a99
